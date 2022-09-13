@@ -37,3 +37,34 @@ figure.foto-legenda figcaption{
 figure.foto-legenda:hover figcaption{
     opacity: 1;
 }
+
+/* Formatação do Menu*/
+nav#menu{
+    display: block; /*bloco pode flutuar pela tela*/
+    
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute; /* posição absoluta em relação ao site */
+    top: -19px;
+    left: 700px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+
+}
+
+nav#menu h1{
+    display: none; /* Item Menu principal escondido porem continua visivel para motores de busca */
+}
+
+
+
+
+
+
